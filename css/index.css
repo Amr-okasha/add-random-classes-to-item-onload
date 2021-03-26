@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  height: 70px;
+  background-color: rgb(173, 173, 173);
+  padding-top: 5px;
+  color: white;
+  line-height: 70px;
+}
+:root {
+  --red: red;
+  --blue: rgb(36, 34, 112);
+  --colorx: rgb(1, 101, 126);
+  --green: green;
+  --yellow: rgb(136, 136, 0);
+  --move: purple;
+}
+#one {
+  width: 90%;
+  height: calc(100% - 105px);
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-around;
+}
+#one h2 {
+  height: 50px;
+}
+.one .header {
+  background-color: var(--red);
+}
+.one h2 {
+  color: var(--red);
+}
+.one p {
+  color: var(--red);
+}
+
+.two .header {
+  background-color: var(--blue);
+}
+.two h2 {
+  color: var(--blue);
+}
+
+.two p {
+  color: var(--blue);
+}
+
+.three .header {
+  background-color: var(--green);
+}
+.three h2 {
+  color: var(--green);
+}
+
+.three p {
+  color: var(--green);
+}
+
+.four h2 {
+  color: var(--colorx);
+}
+
+.four p {
+  color: var(--colorx);
+}
+.four .header {
+  background-color: var(--colorx);
+}
+
+.five h2 {
+  color: var(--yellow);
+}
+
+.five p {
+  color: var(--yellow);
+}
+.five .header {
+  background-color: var(--yellow);
+}
+
+.six h2 {
+  color: var(--move);
+}
+
+.six p {
+  color: var(--move);
+}
+.six .header {
+  background-color: var(--move);
+}
